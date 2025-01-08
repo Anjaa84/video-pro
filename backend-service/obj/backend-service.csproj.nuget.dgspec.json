@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/anjanan/Documents/practice/dotnet/video-pro/backend/StreamlyPro.Server/StreamlyPro.Server.csproj": {}
+    "/Users/anjanan/Documents/practice/dotnet/video-pro/backend-service/backend-service.csproj": {}
   },
   "projects": {
-    "/Users/anjanan/Documents/practice/dotnet/video-pro/backend/StreamlyPro.Server/StreamlyPro.Server.csproj": {
+    "/Users/anjanan/Documents/practice/dotnet/video-pro/backend-service/backend-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/anjanan/Documents/practice/dotnet/video-pro/backend/StreamlyPro.Server/StreamlyPro.Server.csproj",
-        "projectName": "StreamlyPro.Server",
-        "projectPath": "/Users/anjanan/Documents/practice/dotnet/video-pro/backend/StreamlyPro.Server/StreamlyPro.Server.csproj",
+        "projectUniqueName": "/Users/anjanan/Documents/practice/dotnet/video-pro/backend-service/backend-service.csproj",
+        "projectName": "backend-service",
+        "projectPath": "/Users/anjanan/Documents/practice/dotnet/video-pro/backend-service/backend-service.csproj",
         "packagesPath": "/Users/anjanan/.nuget/packages/",
-        "outputPath": "/Users/anjanan/Documents/practice/dotnet/video-pro/backend/StreamlyPro.Server/obj/",
+        "outputPath": "/Users/anjanan/Documents/practice/dotnet/video-pro/backend-service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/anjanan/.nuget/NuGet/NuGet.Config"
@@ -46,14 +46,6 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
