@@ -1,12 +1,14 @@
+
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using MyBackendService.Models;
 
 
-namespace BackendService
+namespace BackendService.Data;
+public class ApplicationDbContext : IdentityDbContext
 {
-    public class ApplicationDbContext :DbContext
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        : base(options)
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) :base(options){}
-        public DbSet<User> Users {get;set;}
     }
 }
